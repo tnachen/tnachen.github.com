@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://tnachen.github.com/atom.xml" rel="self"/>
   <link href="http://tnachen.github.com/"/>
-  <updated>2012-08-18T21:34:10-07:00</updated>
+  <updated>2012-08-18T21:38:43-07:00</updated>
   <id>http://tnachen.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[What is CRDT (Conflict-free Replicated Data Types)?]]></title>
+    <link href="http://tnachen.github.com/blog/2012/08/18/what-is-crdt/"/>
+    <updated>2012-08-18T21:37:00-07:00</updated>
+    <id>http://tnachen.github.com/blog/2012/08/18/what-is-crdt</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
