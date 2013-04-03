@@ -6,3 +6,10 @@ comments: true
 sharing: true
 footer: true
 ---
+
+I'm a Software Engineer that loves tackling Distributed Systems and Database problems.
+
+I also contribute to open source projects (www.github.com/tnachen).
+
+
+
