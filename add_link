@@ -18,3 +18,5 @@ youtube_link=youtube_link
 
 with open(dir_path + "/adoption/" + url_name + ".html", 'w') as writer:
     writer.write(rendered)
+
+print("Link: http://tnachen.github.io/adoption/" + url_name + ".html")
