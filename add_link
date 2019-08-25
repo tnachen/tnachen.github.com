@@ -1,0 +1,20 @@
+#!/usr/bin/env python
+
+import os
+import sys
+from text_template import TextTemplate as view
+
+youtube_link = sys.argv[1]
+image_name = sys.argv[2]
+url_name = sys.argv[3]
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+rendered = view.render(
+template=dir_path + '/youtube_template.txt',
+image_name=image_name,
+youtube_link=youtube_link
+)
+
+with open(dir_path + "/adoption/" + url_name + ".html", 'w') as writer:
+    writer.write(rendered)
